@@ -13,7 +13,6 @@ connectDB();
 
 const app = express();
 app.use(express.json());
-
 const allowedOrigins = [
   "http://localhost:3000",
   "https://rms-frontend-chi.vercel.app",
